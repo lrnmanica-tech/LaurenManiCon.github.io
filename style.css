@@ -1,0 +1,90 @@
+body{
+    box-sizing: border-box;
+    font-family: Arial;
+    background-color: #DCEBF7;
+    margin: 0;
+    transition: ease-in;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#Barra{
+    background-color:#2F5B89;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    position: sticky;
+}
+#Cabeçalho{
+    background-color: #D3D3D3;
+    padding: 40px;
+    text-align: center;
+    color: #153151;
+}
+.IndexSec{
+    background-color: #D3D3D3;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    border-left: 4px solid #153151;
+}
+.IndexSec h1{
+    color:#153151;
+}
+.IndexSec p{
+    margin: 30px;
+}
+.IndexSec:hover{
+    transition: box-shadow 0.5s ease;
+    box-shadow: 5px 5px 10px grey;
+}
+#fotosindex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.IndexImg{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 0 0 10px 0;
+}
+.IndexImg:hover{
+    transition: box-shadow 0.5s ease;
+    box-shadow: 5px 5px 10px grey;
+}
+footer{
+    background-color: #153151;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+.ContainerPaíses{
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.País{
+    gap:10px;
+    background-color: #D3D3D3;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 4px solid #153151;
+}
+.País:hover{
+    transition: box-shadow 0.5s ease;
+    box-shadow: 5px 5px 10px grey;
+}
+.País img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 0 0 0 400px;
+}
