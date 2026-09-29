@@ -1,3 +1,8 @@
+html {
+    scroll-behavior: smooth;
+    position: relative;
+}
+
 body{
     box-sizing: border-box;
     font-family: Arial;
@@ -15,12 +20,29 @@ a{
     text-decoration: none;
     padding: 20px;
     display: flex;
-    justify-content: space-around;
-    font-size: 20px;
+    gap: 20px;
+    font-size: 17px;
     position: sticky;
+    align-items: center;
+    justify-content: center;
 }
+
+#Barra #título {
+    font-size: 10px;
+    text-align: center;
+    color: #D3D3D3;
+}
+
+#Barra p{
+    margin-top: 0px;    
+}
+
+#Barra h1{
+    margin-bottom: 0px;
+}
+
 #Cabeçalho{
-    background-color: #D3D3D3;
+    background-color: #a4b3c4;
     padding: 40px;
     text-align: center;
     color: #153151;
@@ -83,8 +105,10 @@ footer{
     box-shadow: 5px 5px 10px grey;
 }
 .País img{
-    width: 300px;
-    height: 300px;
-    border-radius: 10px;
-    margin: 0 0 0 400px;
+  float: right;
+  width: 200px;
+  height: auto;
+  margin: 0 20px 10px 20px;
+  border: 2px solid #6d93bb;
+  border-radius: 7px;
 }
