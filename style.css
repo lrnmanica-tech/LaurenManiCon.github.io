@@ -23,7 +23,7 @@ a{
     color: #a4b3c4;
     font-size: 20px;
     font-weight: bold;
-    margin-top: 20px;
+    margin-top: 2px;
     margin-right: 30px;
 }
 
@@ -34,7 +34,7 @@ a{
     border-radius: 8px;
     font-size: 13.2px;
     width: 120px;
-    align-items: center;
+    justify-content: center;
     z-index: 1;
     position: fixed;
     bottom: 20px;
@@ -45,7 +45,7 @@ a{
     background-color:#2F5B89;
     text-align: center;
     text-decoration: none;
-    padding: 20px;
+    padding: 5px;
     display: flex;
     gap: 20px;
     top:0;
@@ -57,19 +57,6 @@ a{
     left: 0;
 }
 
-#Barra #título {
-    font-size: 10px;
-    text-align: center;
-    color: #D3D3D3;
-}
-
-#Barra p{
-    margin-top: 0px;    
-}
-
-#Barra h1{
-    margin-bottom: 0px;
-}
 
 #Cabeçalho{
     background-color: #a4b3c4;
