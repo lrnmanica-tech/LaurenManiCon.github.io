@@ -82,6 +82,4 @@ Autor: DEMOSH
 
 -----------------------------------------------------------------------------------
 Lauren Manica Conceição
-Desenvolvimento Web I 
-Fonte: Wikimedia Commons / Flickr   
-Fonte da imagem: Wikimedia Commons — Kenya safari.jpg
+Desenvolvimento Web I - 2026
